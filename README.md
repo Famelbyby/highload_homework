@@ -564,3 +564,14 @@ Pinterest  — социальный интернет-сервис, фотохо�
 | Webpack                     | client part of site | собирает проект, транспалируя JS, сжимает файлы, соединяет стили, конвертирует картинки, уменьшая размер, и тд |
 | Nginx                       | used to balance traffic and checks/cache SSL | высокопроизводительный балансировщик уровня L7<br>кэширует запросы<br>сжимает запросы gzip<br>быстрая раздача статики<br>hot reload |
 | gRPC                        | used to set up connections between services | может настраивать соединение между разноязыковыми сервисами<br>компактный |
+| Kafka                       | as queue for update/insert queries into recommendations MongoDB | very high perfomance<br>scalable |
+| Grafana                     | checks for metrics/notify about them | adapted<br>convenient<br>alerts |
+| S3 MinIO                    | stores files | convenient<br>high perfomance<br>scalable |
+
+# 9. Схема проекта
+
+На рисунке 6 представлена схема проекта.
+
+
+
+Рисунок 6 - Схема проекта
