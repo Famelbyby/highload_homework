@@ -547,7 +547,6 @@ apple - 21 / (21 + 14 + 6) = 21 / 41 = 0.51, bench = 14 / 41 = 0.34, village = 0
 | Redis                       | store sessions             | высокопроизводительная БД ключ-значения<br>хранится in-memory |
 | MongoDB                     | store pins, users and ML info | гибкая система хранения информация<br>легкое масштабирование |
 | k8s                         | launch services and tracks for them | автоматическая отказоустойчивость<br>масштабируемость нагрузки |
-| Python                      | ML | быстр в разработке<br>имеет встроенные библиотеки для реализации ИИ |
 | JavaScript                  | client part of site | необходим для разработки клиентской части сайта |
 | Webpack                     | client part of site | собирает проект, транспалируя JS, сжимает файлы, соединяет стили, конвертирует картинки, уменьшая размер, и тд |
 | Nginx                       | used to balance traffic and checks/cache SSL | высокопроизводительный балансировщик уровня L7<br>кэширует запросы<br>сжимает запросы gzip<br>быстрая раздача статики<br>hot reload |
@@ -560,31 +559,31 @@ apple - 21 / (21 + 14 + 6) = 21 / 41 = 0.51, bench = 14 / 41 = 0.34, village = 0
 
 На рисунке 5 представлена легенда показанных ниже схем.
 
-![image](https://github.com/user-attachments/assets/df415125-c0b7-4569-a441-aea6960a43c2)
+![image](https://github.com/user-attachments/assets/53df7e42-f038-4e87-a5ca-4bed0c80ba58)
 
 Рисунок 5 - Легенда схем проекта
 
 На рисунке 6 представлена схема части проекта в ДЦ по авторизации/регистрации пользователей.
 
-![image](https://github.com/user-attachments/assets/f9856880-f4c7-431e-9ca4-0f87d6cbaee2)
+![image](https://github.com/user-attachments/assets/fdec966d-7019-4584-bdf8-347abb49c0ec)
 
 Рисунок 6 - Схема проекта
 
 На рисунке 7 представлена схема части проекта в ДЦ по просмотру ленты.
 
-![image](https://github.com/user-attachments/assets/9c978da2-277f-4a8e-acf4-982e8eb3dd00)
+![image](https://github.com/user-attachments/assets/46b92bb1-80b2-4e58-98de-1a5a5630da24)
 
 Рисунок 7 - Схема проекта
 
 На рисунке 8 представлена схема части проекта в ДЦ по просмотру пинов и добавлению их в сохранённые, а также подписке на пользователя.
 
-![image](https://github.com/user-attachments/assets/0f8638bc-571f-43b3-92e9-363c953f29d3)
+![image](https://github.com/user-attachments/assets/ce31d4d6-afd0-428f-9570-da056b4f7c25)
 
 Рисунок 8 - Схема проекта
 
 На рисунке 9 представлена схема части проекта в ДЦ по созданию/редактированию/удалению пинов.
 
-![image](https://github.com/user-attachments/assets/634f4e7e-582c-476b-9ef5-c84ce37d869b)
+![image](https://github.com/user-attachments/assets/c21c6ccf-3476-4d8e-9681-1f16fba02e87)
 
 Рисунок 9 - Схема проекта
 
